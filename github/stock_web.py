@@ -25,7 +25,7 @@ def main():
     st.sidebar.info('funwriter no girlfriend')
     
     # 載入keras模型
-    model = keras.models.load_model('github/keraV2.h5')
+    model = keras.models.load_model('github/keraV2.h5', compile=False)
     #圖片size
     input_width =   224
     input_height =  224
