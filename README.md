@@ -3,3 +3,7 @@
 
 測試用，使用 streamlit 搭建，測試 share.streamlit.io
 自己訓練的模型太大上傳不上來，所以這裡的模型用 teachablemachine 訓練的代替
+
+1.先用 stockdata 將圖像數據處理後存到 imagestock 資料夾
+2.數據處理完後用 keras 模型訓練
+3.丟到 stock_image_class_examV2  驗證後架上 streamlit
