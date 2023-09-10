@@ -1,30 +1,30 @@
-# 股票預測demo
-這個Demo展示了如何使用Streamlit建立一個簡單的股票預測應用程式。
+# 股票價格預測
 
-由於模型過大無法直接上傳到GitHub，因此我們使用Teachable Machine來訓練代替模型。
+這個項目演示了如何使用Streamlit構建一個簡單的股票價格預測應用程序。由於模型過大無法直接上傳到GitHub，因此我們使用Teachable Machine來代替模型。
 
-如何運行：
+## 開始
 
-要運行這個Demo，您可以點擊以下連結：https://stockpre-e5jvrmkct9gy45v8ltqwyz.streamlit.app/
+要使用此應用程序，您可以點擊以下連結以訪問它：[股票價格預測 Demo](https://stockpre-e5jvrmkct9gy45v8ltqwyz.streamlit.app/)
 
-請注意，您需要有網絡連接才能訪問Demo。
+請注意，您需要網絡連接才能訪問Demo。
 
-專案結構：
+## 功能
 
-這個專案包含以下步驟：
+### 視覺化
 
-使用stockdata庫處理圖像數據，並將其存儲在imagestock資料夾中。
+此功能允許您在圖表中查看不同的技術指標，包括收盤價、布林通道和指數移動平均。
 
-使用Keras模型訓練處理後的數據。
+### 近期數據
 
-使用stock_image_class_examV2來驗證模型性能。
+此功能顯示了最近的股票數據，讓您可以查看特定時間範圍內的價格。
 
-最終，在Streamlit上部署應用程式，讓使用者能夠輕鬆預測台灣股市。
+### 預測
 
-技術堆疊：
+此功能允許您使用不同的機器學習模型來預測股票價格。您可以選擇線性回歸、K最近鄰回歸、XGBoost或長期預測模型（Keras模型）。
 
-Streamlit: 用於建立互動性股票預測應用程式的Python庫。
-Teachable Machine: 用於模型訓練的在線機器學習工具。
-Keras: 用於構建和訓練深度學習模型的深度學習庫。
-注意事項
-請注意，這只是一個測試Demo，模型使用Teachable Machine代替。在實際情況下，您可能需要使用更大的數據集和更強大的模型來進行台灣股市的預測。
+## 如何運行
+
+要運行此應用程序，您需要安裝所需的Python庫。您可以使用以下命令安裝它們：
+
+```shell
+pip install streamlit pandas yfinance ta-lib datetime scikit-learn xgboost matplotlib pillow mplfinance
