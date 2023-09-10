@@ -5,7 +5,7 @@
 
 如何運行：
 
-要運行這個Demo，您可以點擊以下連結：股票預測 Demo
+要運行這個Demo，您可以點擊以下連結：https://stockpre-e5jvrmkct9gy45v8ltqwyz.streamlit.app/
 
 請注意，您需要有網絡連接才能訪問Demo。
 
