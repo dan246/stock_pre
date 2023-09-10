@@ -1,5 +1,7 @@
 # 股票預測demo
-這個Demo展示了如何使用Streamlit建立一個簡單的股票預測應用程式。由於模型過大無法直接上傳到GitHub，因此我們使用Teachable Machine來訓練代替模型。
+這個Demo展示了如何使用Streamlit建立一個簡單的股票預測應用程式。
+
+由於模型過大無法直接上傳到GitHub，因此我們使用Teachable Machine來訓練代替模型。
 
 如何運行：
 
