@@ -1,6 +1,6 @@
 # 股票價格預測
 
-這個項目演示了如何使用Streamlit構建一個簡單的股票價格預測應用程序。由於模型過大無法直接上傳到GitHub，因此我們使用Teachable Machine來代替模型。
+這個Demo展示了如何使用Streamlit構建一個簡單的股票價格預測應用程序。由於模型過大無法直接上傳到GitHub，因此我們使用Teachable Machine來代替模型。
 
 ## 開始
 
