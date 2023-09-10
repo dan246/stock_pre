@@ -6,7 +6,6 @@ numpy
 streamlit
 pandas
 ta
-datetime
 scikit-learn
 xgboost
 pathlib
