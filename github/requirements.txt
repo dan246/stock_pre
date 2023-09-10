@@ -4,3 +4,12 @@ Pillow
 mplfinance
 numpy
 streamlit
+pandas
+ta
+datetime
+scikit-learn
+xgboost
+pathlib
+beautifulsoup4
+logging
+pytest-shutil
