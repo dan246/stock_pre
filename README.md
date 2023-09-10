@@ -28,7 +28,7 @@
 
 ```shell
 pip install streamlit pandas yfinance ta-lib datetime scikit-learn xgboost matplotlib pillow mplfinance
-
+```
 1. 使用stockdata庫處理圖像數據，並將其存儲在imagestock資料夾中。
 
 2. 使用Keras模型訓練處理後的數據。
