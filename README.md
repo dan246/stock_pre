@@ -24,7 +24,15 @@
 
 ## 如何運行
 
-要運行此應用程序，您需要安裝所需的Python庫。您可以使用以下命令安裝它們：
+要執行此應用程序，您需要安裝所需的Python庫。您可以使用以下命令安裝它們：
 
 ```shell
 pip install streamlit pandas yfinance ta-lib datetime scikit-learn xgboost matplotlib pillow mplfinance
+
+1. 使用stockdata庫處理圖像數據，並將其存儲在imagestock資料夾中。
+
+2. 使用Keras模型訓練處理後的數據。
+
+3. 使用stock_image_class_examV2來驗證模型性能。
+
+4. 最終，在Streamlit上部署應用程式，讓使用者能夠輕鬆預測股票價格。
