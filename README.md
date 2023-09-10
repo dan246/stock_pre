@@ -10,3 +10,4 @@
 
 3.丟到 stock_image_class_examV2  驗證後架上 streamlit
 
+網址: https://stockpre-e5jvrmkct9gy45v8ltqwyz.streamlit.app/
